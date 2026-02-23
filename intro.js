@@ -10,3 +10,4 @@ console.log(val, val2, val3, val4)
 const sym1 = Symbol(4);
 const sym2 = Symbol(4);
 console.log(sym1, sym2)
+
