@@ -45,3 +45,24 @@ switch(grade){
     default:
         console.log("Invalid grade");
 }
+
+
+function add(a, b){
+    return a + b;
+}
+let sum = add(5, 10);
+console.log(sum);
+
+function showAlert(){
+    alert("Button clicked!");
+}
+
+function sayHello(name, age){
+    alert(`Hello ${name}, you are ${age} years old!`);
+}
+
+var res = mul(5, 10);
+function mul(a, b){
+    return a * b;
+}
+console.log(res);
