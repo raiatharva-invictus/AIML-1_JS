@@ -66,3 +66,29 @@ function mul(a, b){
     return a * b;
 }
 console.log(res);
+
+var adda = (x, y) => {
+    return x + y;
+}
+
+console.log(adda(10, 20));
+
+var person = {
+    name : "Atharva",
+    age : 21,
+    isMarried : false,
+    address : {
+        city : "Pune",
+        state : "Maharashtra"
+    },
+    hobbies : ["coding", "music", "traveling"],
+    greet : function(){
+        console.log(`Hello, my name is ${this.name}`);
+    }
+}
+
+
+for(let key in person){
+    console.log(`${key} : ${person[key]}`);
+}
+
